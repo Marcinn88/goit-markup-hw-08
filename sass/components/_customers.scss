@@ -1,0 +1,40 @@
+.customers__list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+}
+.customers__header {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--third-color);
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+.customer__box {
+  display: flex;
+  width: 170px;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px var(--ico-color);
+  border-radius: 4px;
+  margin-bottom: 94px;
+  padding: 15px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    border: var(--logo-color) 1px solid;
+    cursor: pointer;
+  }
+}
+
+.customer__icon {
+  fill: var(--ico-color);
+  cursor: pointer;
+  &:hover {
+    fill: var(--logo-color);
+    cursor: pointer;
+  }
+}

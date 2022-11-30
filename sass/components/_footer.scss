@@ -1,0 +1,15 @@
+.footer__cointainer {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  max-width: 1200px;
+  gap: 70px;
+}
+.footer {
+  background-color: var(--theme-color);
+  & a {
+    text-decoration: none;
+  }
+}

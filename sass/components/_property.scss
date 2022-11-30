@@ -1,0 +1,59 @@
+.property-container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.property__list-container {
+  display: block;
+  align-items: center;
+  margin: auto;
+}
+.property {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.property__logos {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-left: 0;
+  margin-bottom: 30px;
+}
+.property__logo {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  background-color: var(--team-color);
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+}
+.property__description {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  text-align: left;
+}
+
+.property__title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--third-color);
+}
+
+.property__information {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--second-color);
+  width: 270px;
+  height: 75px;
+}
+.property__textbox {
+  width: 270px;
+  height: 101px;
+}

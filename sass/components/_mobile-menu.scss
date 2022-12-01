@@ -42,6 +42,9 @@
   &:visited {
     color: var(--dark-color);
   }
+  &:hover {
+    color: var(--logo-color);
+  }
 }
 
 .toggle-menu {

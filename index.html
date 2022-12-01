@@ -98,6 +98,51 @@
             <use href="./images/sprite.svg#menu-mobile"></use>
           </svg>
         </div>
+        <div class="mobile-menu d-none">
+          <div class="mobile-menu__container">
+            <button class="toggle-menu">x</button>
+            <nav>
+              <ul class="mobile-menu__nav">
+                <li>
+                  <a class="mobile-menu__link" href="./index.html"
+                    ><p>Agencja</p></a
+                  >
+                </li>
+                <li>
+                  <a class="mobile-menu__link" href="./portfolio.html"
+                    ><p>Portfolio</p></a
+                  >
+                </li>
+                <li>
+                  <a class="mobile-menu__link" href="#"><p>Kontakt</p></a>
+                </li>
+              </ul>
+              <ul class="mobile-menu__contacts">
+                <li>
+                  <a
+                    class="mobile-menu__contact mobile-menu__contact--phone"
+                    href="tel:+48111111111"
+                    ><p>+48 111 111 111</p></a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="mobile-menu__contact mobile-menu__contact--mail"
+                    href="mailto:info@devstudio.com"
+                    ><p>info@devstudio.com</p></a
+                  >
+                </li>
+              </ul>
+
+              <ul class="mobile-menu__socials">
+                <li>Instagram</li>
+                <li>Twitter</li>
+                <li>Facebook</li>
+                <li>Linkedin</li>
+              </ul>
+            </nav>
+          </div>
+        </div>
         <nav class="header__navigation">
           <ul class="header__menu">
             <li>
@@ -215,36 +260,7 @@
                 </p>
               </li>
             </ul>
-            <!-- <ul class="property__description--mobile">
-              <li class="property__textbox">
-                <h3 class="property__title">Lorem ipsum</h3>
-                <p class="property__information">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-                  vel arcu sem. Sed non sodales dui. Interdum et malesuada
-                </p>
-              </li>
-              <li class="property__textbox">
-                <h3 class="property__title">Lorem ipsum</h3>
-                <p class="property__information">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-                  vel arcu sem. Sed non sodales dui. Interdum et malesuada
-                </p>
-              </li>
-              <li class="property__textbox">
-                <h3 class="property__title">Lorem ipsum</h3>
-                <p class="property__information">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-                  vel arcu sem. Sed non sodales dui. Interdum et malesuada
-                </p>
-              </li>
-              <li class="property__textbox">
-                <h3 class="property__title">Lorem ipsum</h3>
-                <p class="property__information">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-                  vel arcu sem. Sed non sodales dui. Interdum et malesuada
-                </p>
-              </li>
-            </ul> -->
+
             <ul class="property__logos--screen-medium">
               <li>
                 <div class="property__logo">
@@ -663,5 +679,6 @@
       </div>
     </footer>
     <script src="./js/modal.js"></script>
+    <script defer src="js/mobile-menu.js"></script>
   </body>
 </html>

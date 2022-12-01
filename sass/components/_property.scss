@@ -1,3 +1,76 @@
+.property-container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.property__list-container {
+  display: block;
+  align-items: center;
+  margin: auto;
+  max-width: 480px;
+}
+.property {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.property__logos--screen-mobile {
+  list-style: none;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  gap: 30px;
+  padding-left: 0;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.property__logos--screen-medium,
+.property__logos--screen-large {
+  display: none;
+}
+.property__logo {
+  display: flex;
+  width: 450px;
+  height: 120px;
+  background-color: var(--team-color);
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+}
+.property__description--mobile {
+  list-style: none;
+  display: none;
+  flex-wrap: wrap;
+  gap: 30px;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+}
+
+.property__title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--third-color);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.property__information {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--second-color);
+  width: 450px;
+  height: 75px;
+}
+.property__textbox {
+  width: 450px;
+  height: 101px;
+}
 @media screen and (min-width: 768px) {
   .property-container {
     padding-top: 94px;
@@ -14,15 +87,22 @@
     flex-direction: column;
     align-items: center;
   }
-  .property__logos {
+
+  .property__logos--screen-medium {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     gap: 30px;
     padding-left: 0;
     margin-bottom: 30px;
+    max-width: 678px;
     align-items: center;
     justify-content: center;
+  }
+  .property__logos--screen-mobile,
+  .property__logos--screen-large {
+    display: none;
   }
   .property__logo {
     display: flex;
@@ -49,6 +129,8 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--third-color);
+    text-align: left;
+    margin-bottom: 10px;
   }
 
   .property__information {
@@ -81,13 +163,19 @@
     flex-direction: column;
     align-items: center;
   }
-  .property__logos {
+  .property__logos--screen-large {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     gap: 30px;
     padding-left: 0;
     margin-bottom: 30px;
+    max-width: 1170px;
+  }
+  .property__logos--screen-mobile,
+  .property__logos--screen-medium {
+    display: none;
   }
   .property__logo {
     display: flex;
@@ -112,6 +200,8 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--third-color);
+    text-align: left;
+    margin-bottom: 10px;
   }
 
   .property__information {

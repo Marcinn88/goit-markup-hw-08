@@ -102,7 +102,17 @@
 .mobile-menu__social-element {
   color: var(--logo-color);
   text-decoration: none;
+  position: relative;
+  &:after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 20px;
+    background-color: var(--ico-color);
+    right: -12px;
+  }
 }
+
 .d-none {
   display: none;
   transform: translatex(-100%);

@@ -38,16 +38,6 @@
   justify-content: center;
   align-items: center;
 }
-.property__description--mobile {
-  list-style: none;
-  display: none;
-  flex-wrap: wrap;
-  gap: 30px;
-  text-align: left;
-  align-items: center;
-  justify-content: center;
-}
-
 .property__title {
   font-size: 14px;
   line-height: 1.14;
@@ -72,20 +62,8 @@
   height: 101px;
 }
 @media screen and (min-width: 768px) {
-  .property-container {
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
   .property__list-container {
-    display: block;
-    align-items: center;
-    margin: auto;
     max-width: 768px;
-  }
-  .property {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
 
   .property__logos--screen-medium {
@@ -105,63 +83,23 @@
     display: none;
   }
   .property__logo {
-    display: flex;
     width: 270px;
-    height: 120px;
-    background-color: var(--team-color);
-    border-radius: 4px;
-    justify-content: center;
-    align-items: center;
-  }
-  .property__description {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    text-align: left;
-    align-items: center;
-    justify-content: center;
   }
 
   .property__title {
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--third-color);
     text-align: left;
-    margin-bottom: 10px;
   }
 
   .property__information {
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: var(--second-color);
     width: 270px;
-    height: 75px;
   }
   .property__textbox {
     width: 270px;
-    height: 101px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .property-container {
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
   .property__list-container {
-    display: block;
-    align-items: center;
-    margin: auto;
     max-width: 1600px;
-  }
-  .property {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
   .property__logos--screen-large {
     list-style: none;
@@ -176,45 +114,5 @@
   .property__logos--screen-mobile,
   .property__logos--screen-medium {
     display: none;
-  }
-  .property__logo {
-    display: flex;
-    width: 270px;
-    height: 120px;
-    background-color: var(--team-color);
-    border-radius: 4px;
-    justify-content: center;
-    align-items: center;
-  }
-  .property__description {
-    list-style: none;
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 30px;
-    text-align: left;
-  }
-
-  .property__title {
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--third-color);
-    text-align: left;
-    margin-bottom: 10px;
-  }
-
-  .property__information {
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: var(--second-color);
-    width: 270px;
-    height: 75px;
-  }
-  .property__textbox {
-    width: 270px;
-    height: 101px;
   }
 }

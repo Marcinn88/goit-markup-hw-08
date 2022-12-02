@@ -98,7 +98,17 @@
   font-size: 18px;
   line-height: 1.22;
   letter-spacing: 0.02em;
+  position: relative;
+  &:last-child:after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 20px;
+    background-color: #fff;
+    right: -20px;
+  }
 }
+
 .mobile-menu__social-element {
   color: var(--logo-color);
   text-decoration: none;
@@ -109,6 +119,7 @@
     width: 1px;
     height: 20px;
     background-color: var(--ico-color);
+    opacity: 0.5;
     right: -12px;
   }
 }

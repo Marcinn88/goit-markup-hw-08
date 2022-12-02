@@ -27,7 +27,6 @@
   align-items: center;
   border: solid 1px var(--ico-color);
   border-radius: 4px;
-
   padding: 15px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -52,6 +51,9 @@
   .customers__list {
     justify-content: space-around;
   }
+  .customer__box {
+    width: 194px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .customers {
@@ -60,5 +62,8 @@
   .customers__list {
     flex-wrap: nowrap;
     justify-content: center;
+  }
+  .customer__box {
+    width: 170px;
   }
 }

@@ -27,8 +27,8 @@
   background-color: transparent;
   border-color: rgba(255, 255, 255, 0.3);
   border-radius: 4px;
-  padding: 15px;
-  width: 420px;
+  padding-block: 15px;
+  width: 100vw;
   margin-bottom: 20px;
 }
 .footer-news__email {
@@ -61,6 +61,12 @@
 }
 .footer-news__send-icon {
   fill: var(--bright-color);
+}
+@media screen and (min-width: 450px) {
+  .footer-news__fieldset {
+    width: 420px;
+    padding: 15px;
+  }
 }
 // @media screen and (min-width: 768px) {
 // }

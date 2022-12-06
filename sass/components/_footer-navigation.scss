@@ -16,7 +16,12 @@
     color: var(--bright-color);
   }
 }
-
+.footer-navigation__studio-color {
+  color: var(--bright-color);
+  &:visited {
+    color: var(--bright-color);
+  }
+}
 .footer-navigation__adres {
   font-style: normal;
   font-size: 14px;

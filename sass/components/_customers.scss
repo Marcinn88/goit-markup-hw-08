@@ -50,22 +50,19 @@
   .customers__list {
     justify-content: space-around;
   }
-  .customer__box {
-    width: 194px;
-  }
   .customers__header {
     font-size: 36px;
   }
 }
 @media screen and (min-width: 1200px) {
   .customers {
-    max-width: 1600px;
+    max-width: 1200px;
   }
   .customers__list {
     flex-wrap: nowrap;
     justify-content: center;
   }
   .customer__box {
-    width: 170px;
+    max-width: 70px;
   }
 }

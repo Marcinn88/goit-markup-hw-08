@@ -5,8 +5,10 @@
 .property__list-container {
   display: block;
   align-items: center;
-  margin: auto;
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  padding: 0 15px;
 }
 .property {
   display: flex;
@@ -31,7 +33,7 @@
 }
 .property__logo {
   display: flex;
-  width: 100vw;
+  width: 90vw;
   height: 120px;
   background-color: var(--team-color);
   border-radius: 4px;
@@ -54,8 +56,10 @@
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--second-color);
-  width: 100vw;
+  width: 90%;
   height: 75px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .property__textbox {
   width: 100vw;
@@ -63,6 +67,7 @@
 }
 @media screen and (min-width: 450px) {
   .property__list-container {
+    width: 100%;
     max-width: 480px;
   }
   .property__logo {
@@ -79,6 +84,7 @@
 @media screen and (min-width: 768px) {
   .property__list-container {
     max-width: 768px;
+    padding: 0;
   }
 
   .property__logos--screen-medium {
